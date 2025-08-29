@@ -1,0 +1,6 @@
+Texto escrito no arquivo.
+Nova linha adicionada.
+Importante .
+Linha adicionada com append().
+Outra linha importante.Linha adicionada com append().
+Outra linha importante.
