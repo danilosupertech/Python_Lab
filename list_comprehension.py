@@ -26,16 +26,15 @@ lista_frutas['Europa'] = [
 for origem, frutas in lista_frutas.items():
     if origem == 'Brasil':
         for fruta in frutas:
-            pass
-            # print(fruta, end="\t")
+            print(fruta, end="\t")
 
             # segunda forma de usar o for
 for frutas in lista_frutas['Brasil']:
-    pass
-    # print(frutas)
+    print(frutas)
 
     # gerar uma nova lista para armazenar apenas o que preciso
 
+# Com chave dinamica
 lista_nova = [
     fruta
     for chave, frutas in lista_frutas.items()
